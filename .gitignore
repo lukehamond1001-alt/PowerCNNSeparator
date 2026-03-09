@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PTB cache (downloaded data, not checked in)
+.ptb_cache/
+
+# Logs
+*.log
+
+# Checkpoints — only keep the best short-word model
+checkpoints/12scanner/
+checkpoints/ScannerChunker_best.pt
